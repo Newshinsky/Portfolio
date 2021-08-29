@@ -1,0 +1,117 @@
+.wrapper {
+    color: #f9004d;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+
+.nav,
+.socialContainer,
+.nav ul {
+    display: flex;
+}
+
+.wrapper h1 a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #f9004d;
+}
+
+
+
+.nav li {
+    list-style-type: none;
+    padding: 5px;
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: blanchedalmond;
+}
+
+.nav li:hover {
+    color: #f9004d;
+}
+
+
+.nav li:after {
+    background-color: #f9004d;
+
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+.nav li:hover:after,
+.nav li:focus:after {
+    width: 100%;
+}
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.socialContainer {
+    text-align: center;
+}
+
+.socialIcons {
+    padding: 0;
+    list-style: none;
+    margin: 1em;
+}
+
+.socialIcons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.socialIcons i {
+    color: blanchedalmond;
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    transition: all 265ms ease-out;
+}
+
+.socialIcons a {
+    display: inline-block;
+}
+
+.socialIcons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #f9004d, #002A8F);
+    transition: all 265ms ease-out;
+}
+
+.socialIcons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.socialIcons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color: #f9004d;
+    background: -webkit-linear-gradient(45deg, #f9004d, #002A8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}

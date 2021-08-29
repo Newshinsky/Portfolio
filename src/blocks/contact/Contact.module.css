@@ -1,0 +1,27 @@
+.wrapper {
+    color: #f9004d;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 100px 0;
+    justify-content: space-around;
+
+}
+
+.wrapper h2 {
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+}
+
+.wrapper p {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgba(198, 201, 216, .75);
+    width: 550px;
+}
+
+.rightWrapper img {
+    width: 500px;
+}

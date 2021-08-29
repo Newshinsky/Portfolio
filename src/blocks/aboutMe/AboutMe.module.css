@@ -1,0 +1,100 @@
+.wrapper {
+    color: #f9004d;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    align-items: flex-start;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.wrapper img {
+    width: 400px;
+}
+
+.wrapper h2 {
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+}
+
+.wrapper p {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgba(198, 201, 216, .75)
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.mainSkills ul {
+    display: flex;
+}
+
+.mainSkills li {
+    list-style-type: none;
+    margin-right: 50px;
+}
+
+.active {
+
+    background-color: #f9004d;
+    color: white;
+}
+
+.disable {
+    background-color: white;
+    color: #f9004d;
+}
+
+.descriptionSlyle {
+    text-align: center;
+    cursor: pointer;
+    font-size: 10px;
+    letter-spacing: 4px;
+    position: relative;
+    border: none;
+    padding: 10px;
+    width: 120px;
+    text-align: center;
+    transition-duration: 0.4s;
+    overflow: hidden;
+    box-shadow: 0 5px 15px #193047;
+    border-radius: 4px;
+}
+
+.descriptionSlyle:hover {
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #f9004d;
+    color: #000;
+}
+
+.descriptionSlyle:after {
+    content: "";
+    background: #f9004d;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.descriptionSlyle:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.descriptionSlyle:focus {
+    outline: 0;
+}

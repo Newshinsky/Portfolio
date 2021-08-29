@@ -1,0 +1,187 @@
+.wrapper {
+    color: #f9004d;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.wrapper h2 {
+    font-weight: 800;
+    font-size: 60px;
+    color: white;
+}
+
+.wrapper p {
+    font-weight: 100;
+    font-size: 20px;
+    color: rgba(198, 201, 216, .75);
+    width: 550px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
+
+
+.footer #button {
+    width: 35px;
+    height: 35px;
+    border: #f9004d 12px solid;
+    border-radius: 35px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.footer #button:hover {
+    width: 35px;
+    height: 35px;
+    border: #f9004d 12px solid;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    position: relative;
+}
+
+.footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    height: 2em;
+    overflow: hidden;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 999;
+}
+
+.footer:hover {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    height: 10em;
+}
+
+.footer #container {
+    margin-top: 5px;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    background: #191919;
+}
+
+.footer #cont {
+    position: relative;
+    top: -45px;
+    right: 190px;
+    width: 150px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.footer_center {
+    width: 1000px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.footer_center h1 {
+    margin: 2.2em;
+}
+
+.footer h3 {
+    font-family: 'Helvetica';
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+.nav,
+.socialContainer {
+    display: flex;
+}
+
+.wrapper h1 a {
+    font-weight: 600;
+    font-size: 20px;
+    color: #f9004d;
+}
+
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+
+.socialIcons {
+    padding: 0;
+    list-style: none;
+    margin: 4em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.socialIcons li {
+    display: inline-block;
+    margin: 0.15em;
+    position: relative;
+    font-size: 1.2em;
+}
+
+.socialIcons i {
+    color: blanchedalmond;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: all 265ms ease-out;
+}
+
+.socialIcons a {
+    display: inline-block;
+}
+
+.socialIcons a:before {
+    transform: scale(1);
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    content: " ";
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: block;
+    background: linear-gradient(45deg, #f9004d, #002A8F);
+    transition: all 265ms ease-out;
+}
+
+.socialIcons a:hover:before {
+    transform: scale(0);
+    transition: all 265ms ease-in;
+}
+
+.socialIcons a:hover i {
+    transform: scale(2.2);
+    -ms-transform: scale(2.2);
+    -webkit-transform: scale(2.2);
+    color: #f9004d;
+    background: -webkit-linear-gradient(45deg, #f9004d, #002A8F);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 265ms ease-in;
+}
