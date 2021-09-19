@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.151371a4.chunk.css",
-    "main.js": "/static/js/main.10a9e7f6.chunk.js",
-    "main.js.map": "/static/js/main.10a9e7f6.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.999a3740.js",
-    "runtime-main.js.map": "/static/js/runtime-main.999a3740.js.map",
-    "static/js/2.df784110.chunk.js": "/static/js/2.df784110.chunk.js",
-    "static/js/2.df784110.chunk.js.map": "/static/js/2.df784110.chunk.js.map",
-    "static/js/3.5118b3c7.chunk.js": "/static/js/3.5118b3c7.chunk.js",
-    "static/js/3.5118b3c7.chunk.js.map": "/static/js/3.5118b3c7.chunk.js.map",
+    "main.css": "/static/css/main.c0e57f9f.chunk.css",
+    "main.js": "/static/js/main.1e4ba904.chunk.js",
+    "main.js.map": "/static/js/main.1e4ba904.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b4187e3f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b4187e3f.js.map",
+    "static/js/2.32ef2b4c.chunk.js": "/static/js/2.32ef2b4c.chunk.js",
+    "static/js/2.32ef2b4c.chunk.js.map": "/static/js/2.32ef2b4c.chunk.js.map",
+    "static/js/3.e06203dd.chunk.js": "/static/js/3.e06203dd.chunk.js",
+    "static/js/3.e06203dd.chunk.js.map": "/static/js/3.e06203dd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.151371a4.chunk.css.map": "/static/css/main.151371a4.chunk.css.map",
-    "static/js/2.df784110.chunk.js.LICENSE.txt": "/static/js/2.df784110.chunk.js.LICENSE.txt",
+    "static/css/main.c0e57f9f.chunk.css.map": "/static/css/main.c0e57f9f.chunk.css.map",
+    "static/js/2.32ef2b4c.chunk.js.LICENSE.txt": "/static/js/2.32ef2b4c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/baptist-standaert-gLvFcIoYr6I-unsplash.9d1b4906.jpg",
     "static/media/dotted.ac291535.png": "/static/media/dotted.ac291535.png",
     "static/media/pexels-almighty-shilref-5471507.143b8f5a.jpg": "/static/media/pexels-almighty-shilref-5471507.143b8f5a.jpg",
     "static/media/pexels-enfantnocta-3785186.3c7e5e6b.jpg": "/static/media/pexels-enfantnocta-3785186.3c7e5e6b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.999a3740.js",
-    "static/js/2.df784110.chunk.js",
-    "static/css/main.151371a4.chunk.css",
-    "static/js/main.10a9e7f6.chunk.js"
+    "static/js/runtime-main.b4187e3f.js",
+    "static/js/2.32ef2b4c.chunk.js",
+    "static/css/main.c0e57f9f.chunk.css",
+    "static/js/main.1e4ba904.chunk.js"
   ]
 }
