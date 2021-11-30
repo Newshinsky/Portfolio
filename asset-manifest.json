@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.5e5083b0.chunk.css",
+    "main.css": "/static/css/main.0824dcfa.chunk.css",
     "main.js": "/static/js/main.62fceddf.chunk.js",
     "main.js.map": "/static/js/main.62fceddf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b4187e3f.js",
@@ -10,7 +10,7 @@
     "static/js/3.e06203dd.chunk.js": "/static/js/3.e06203dd.chunk.js",
     "static/js/3.e06203dd.chunk.js.map": "/static/js/3.e06203dd.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.5e5083b0.chunk.css.map": "/static/css/main.5e5083b0.chunk.css.map",
+    "static/css/main.0824dcfa.chunk.css.map": "/static/css/main.0824dcfa.chunk.css.map",
     "static/js/2.32ef2b4c.chunk.js.LICENSE.txt": "/static/js/2.32ef2b4c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/static/media/baptist-standaert-gLvFcIoYr6I-unsplash.9d1b4906.jpg",
     "static/media/converter_logo.3921613c.png": "/static/media/converter_logo.3921613c.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.b4187e3f.js",
     "static/js/2.32ef2b4c.chunk.js",
-    "static/css/main.5e5083b0.chunk.css",
+    "static/css/main.0824dcfa.chunk.css",
     "static/js/main.62fceddf.chunk.js"
   ]
 }
