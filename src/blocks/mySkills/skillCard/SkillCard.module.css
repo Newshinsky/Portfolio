@@ -183,3 +183,26 @@
 .diJavascript1 {
     color: yellow;
 }
+
+@media (max-width: 768px) {
+    .pageContain {
+        display: flex;
+        height: 250px;
+        width: 175px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .dataCard p {
+        font-size: 25px;
+        width: 150px;
+        margin: 12px 0 25px;
+    }
+
+    .dataCard h3 {
+        font-size: 1em;
+        padding-bottom: 0.5em;
+        margin: 0 0 0.07em;
+        margin-top: 10px;
+    }
+}

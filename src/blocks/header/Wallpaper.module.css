@@ -1,26 +1,43 @@
 .wrapper {
-    height: 850px;
+    height: calc(320px + 40vw);
     display: flex;
     flex-direction: column;
-    margin: 280px 0 0 100px;
+    margin: 15vh 0 0 100px;
 
 }
 
 .wrapper h5 {
     color: rgba(198, 201, 216, .75);
     font-weight: 100;
-    font-size: 20px;
-
+    font-size: calc(4px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
 }
 
 .wrapper h2 {
     color: white;
     font-weight: 800;
-    font-size: 60px;
+    font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
 }
 
 .wrapper h3 {
     color: #f9004d;
     font-weight: 800;
-    font-size: 40px;
+    font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
+}
+
+
+
+@media (max-width: 768px) {
+    .wrapper h2 {
+        font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
+    }
+
+    .wrapper {
+        height: calc(80px + 40vw);
+    }
+}
+
+@media (max-width: 440px) {
+    .wrapper {
+        margin: 15vh auto 0;
+    }
 }

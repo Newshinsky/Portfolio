@@ -11,17 +11,31 @@
 
 .wrapper h2 {
     font-weight: 800;
-    font-size: 60px;
+    font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
     color: white;
 }
 
 .wrapper p {
     font-weight: 100;
-    font-size: 20px;
+    font-size: calc(4px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
     color: rgba(198, 201, 216, .75);
-    width: 550px;
 }
 
 .rightWrapper img {
     width: 500px;
+
+}
+
+.rightWrapper {
+    display: flex;
+}
+
+@media (max-width: 1080px) {
+    .wrapper {
+        justify-content: center;
+    }
+
+    .rightWrapper img {
+        display: none
+    }
 }

@@ -62,6 +62,7 @@ li {
 .sticky {
   position: sticky;
   top: 0;
+  z-index: 1000;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');

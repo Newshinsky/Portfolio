@@ -5,19 +5,19 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 100px;
     justify-content: center;
 }
 
 .wrapper h2 {
     font-weight: 800;
-    font-size: 60px;
+    font-size: calc(16px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
     color: white;
 }
 
 .wrapper p {
     font-weight: 100;
-    font-size: 20px;
+    font-size: calc(4px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
     color: rgba(198, 201, 216, .75);
     width: 550px;
 }
@@ -30,5 +30,21 @@
     align-items: center;
     flex-basis: 100%;
     max-width: 1300px;
+}
 
+@media (max-width: 768px) {
+    .wrapper {
+        margin-top: 50px;
+    }
+    .wrapper p {
+        width: 300px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 370px) {
+    .wrapper p {
+        width: 150px;
+        text-align: center;
+    }
 }

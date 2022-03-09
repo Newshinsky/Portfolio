@@ -12,7 +12,6 @@
 
 
 .nav,
-.socialContainer,
 .nav ul {
     display: flex;
 }
@@ -66,6 +65,7 @@
     padding: 0;
     list-style: none;
     margin: 1em;
+    display: flex;
 }
 
 .socialIcons li {
@@ -114,4 +114,33 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 265ms ease-in;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+    .nav {
+        position: fixed;
+        left: -100%;
+        top: 5rem;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow:
+            0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+}
+
+
+/*********************************************************/
+@media (max-width: 768px) {
+    .nav ul a {
+        display: none;
+    }
+
+
 }

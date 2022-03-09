@@ -23,7 +23,7 @@ export const PortfolioCard = (props: PropsType) => {
                                         </div>
                                         <div className={s.contentBx}>
                                             <h2>{e.name}</h2>
-                                            <a href="##">Look</a>
+                                            <a href={e.link} target="_blank">Look</a>
                                         </div>
                                     </div>
                                 </div>
@@ -32,7 +32,6 @@ export const PortfolioCard = (props: PropsType) => {
                     )
                 })
             }
-
         </>
     )
 }

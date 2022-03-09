@@ -11,18 +11,13 @@ type PropsType = {
 export const SkillCard = (props: PropsType) => {
 
 
-
-
     return (
         <>
-
-
-
             {props.skills.map(e => {
                 return (
                     <div id="AboutMe" >
                         <div className={s.wrapper}>
-                            <section className={s.pageContain}>
+                            <div className={s.pageContain}>
                                 <a href="##" className={s.dataCard}>
                                     <h3>{e.skill}</h3>
                                     <p> {e.percent}%
@@ -34,12 +29,11 @@ export const SkillCard = (props: PropsType) => {
                                     </div> */}
                                     </span>
                                 </a>
-                            </section>
+                            </div>
                         </div>
                     </div>
                 )
             })}
-
         </>
     )
 }

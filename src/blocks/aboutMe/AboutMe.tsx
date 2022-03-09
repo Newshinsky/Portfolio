@@ -5,22 +5,22 @@ import { useState } from "react"
 
 export const AboutMe = () => {
 
-    let [description, setDescription] = useState("React, CSS, JS Native, HTML, PhotoShop")
+    let [description, setDescription] = useState("React, CSS, JS, HTML, PhotoShop, Typescript")
     let information = [
         {
             id: 1,
             name: "Main Skills",
-            description: "React, CSS, JS Native, HTML, PhotoShop"
+            description: "React, CSS, JS Native, HTML, PhotoShop, В1 – Pre-Intermediate", 
         },
         {
             id: 2,
             name: "Education",
-            description: "BNTU 2016 - 2020"
+            description: "BNTU 2012 - 2016"
         },
         {
             id: 3,
             name: "Experience",
-            description: "Account-Manager 2017 - 2021, IT-INCUBATOR"
+            description: " Senior Account-Manager 2017 - 2021, IT-INCUBATOR"
         },
     ]
 
@@ -32,36 +32,32 @@ export const AboutMe = () => {
     return (
 
 
-        <>
-            <div className="bodyColorGrey">
-                <div id="AboutMe" className="container">
-                    <div className={s.wrapper}>
-                        <img src={photo} alt="MyPhoto" />
-                        <div className={s.info}>
-                            <h2 >  About me </h2>
-                            <p> There are many variations of
-                                passages of Lorem Ipsum available,
-                                but the majority have suffered
-                                <a href="##">alteration</a>
-                                in some form, by injected humour,
-                                or randomised words which dont look
-                                even slightly believable. If you are
-                                going to use a passage of Lorem Ipsum,
-                            </p>
-                            <div className={s.mainSkills}>
-                                <ul>
-                                    <a href="##"><li className={`${description === information[0].description ? s.active : s.disable} ${s.descriptionSlyle}`} onClick={() => ChangeDescription(1)} >Main Skills</li></a>
-                                    <a href="##"><li className={`${description === information[1].description ? s.active : s.disable} ${s.descriptionSlyle}`} onClick={() => ChangeDescription(2)}>Awards</li></a>
-                                    <a href="##"><li className={`${description === information[2].description ? s.active : s.disable} ${s.descriptionSlyle}`} onClick={() => ChangeDescription(3)}>Expirience</li></a>
-                                </ul>
 
-                                <p>{description}</p>
-                            </div>
+        <div className="bodyColorGrey">
+            <div id="AboutMe" className="container">
+                <div className={s.wrapper}>
+                    <img src={photo} alt="MyPhoto" />
+                    <div className={s.info}>
+                        <h2 >  About me </h2>
+                        <p> In 2012 I entered BNTU and graduated in 2016  </p>
+                        <p>  In the period from 2016 to 2017, I served in the military </p>
+                        <p>   At the moment I hold the position of a leading specialist in working with clients</p>
+                        <p>    I consider the best qualities in myself to be sociability, the ability to work with a large amount of information and deep analysis in numbers</p>
 
+                        <div className={s.mainSkills}>
+                            <ul>
+                                <a href="##"><li className={`${description === information[0].description ? s.active : s.disable} ${s.descriptionSlyle}`} onClick={() => ChangeDescription(1)} >{information[0].name}</li></a>
+                                <a href="##"><li className={`${description === information[1].description ? s.active : s.disable} ${s.descriptionSlyle}`} onClick={() => ChangeDescription(2)}>{information[1].name}</li></a>
+                                <a href="##"><li className={`${description === information[2].description ? s.active : s.disable} ${s.descriptionSlyle}`} onClick={() => ChangeDescription(3)}>{information[2].name}</li></a>
+                            </ul>
+
+                            <p>{description}</p>
                         </div>
+
                     </div>
                 </div>
             </div>
-        </>
+        </div>
+
     )
 }

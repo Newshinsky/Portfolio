@@ -6,7 +6,7 @@ import s from "./ContactForm.module.css"
 
 export const ContactForm = () => {
     return (
-        <>
+     
             <div className={s.background}>
                 <div className={s.container}>
                     <div className={s.screen}>
@@ -54,7 +54,5 @@ export const ContactForm = () => {
                     </div >
                 </div >
             </div >
-
-        </>
     )
 }

@@ -11,21 +11,17 @@ type PropsType = {
 
 export const Portfolio = (props: PropsType) => {
     return (
-
-        <>
-            <div  className="bodyColorGrey">
-                <div className="container">
-                    <div  id="Portfolio"className={s.wrapper}>
-                        <h2>Portfolio</h2>
-                        <p>There are many variations of passages of Lorem Ipsum available,
-                            but the majority have suffered alteration.
-                        </p>
-                        <div className={s.item}>
-                            <PortfolioCard works={props.works} />
-                        </div>
+        <div className="bodyColorGrey">
+            <div className="container" id="Portfolio">
+                <div className={s.wrapper}>
+                    <h2>Portfolio</h2>
+                    <p>Projects are being finalized at the moment, so at the moment only the structure of applications is reflected
+                    </p>
+                    <div className={s.item}>
+                        <PortfolioCard works={props.works} />
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     )
 }

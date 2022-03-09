@@ -8,18 +8,6 @@
 
 }
 
-.wrapper h2 {
-    font-weight: 800;
-    font-size: 60px;
-    color: white;
-}
-
-.wrapper p {
-    font-weight: 100;
-    font-size: 20px;
-    color: rgba(198, 201, 216, .75);
-    width: 550px;
-}
 
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400);
 
@@ -27,7 +15,7 @@
 .footer #button {
     width: 35px;
     height: 35px;
-    border: #f9004d 12px solid;
+    border: #0e0b0c 12px solid;
     border-radius: 35px;
     margin: 0 auto;
     position: relative;
@@ -94,16 +82,17 @@
 }
 
 .footer_center {
-    width: 1000px;
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: canter;
 }
 
 
 .footer_center h1 {
-    margin: 2.2em;
+    margin-top: 70px;
+    white-space: nowrap;
+    font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
 }
 
 .footer h3 {
@@ -184,4 +173,35 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: all 265ms ease-in;
+}
+
+@media (max-width: 756px) {
+
+    .socialIcons a:before {
+
+        width: 30px;
+        height: 30px;
+
+    }
+
+    .socialIcons i {
+
+        top: 6px;
+        left: 6px;
+
+    }
+
+    .socialIcons {
+        padding: 0;
+        list-style: none;
+        margin: 4em 1em 4em 7em;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .footer_center h1 {
+
+        font-size: calc(10px + (16 + 16 * 0.7) * ((100vw - 320px) / 1440));
+    }
 }

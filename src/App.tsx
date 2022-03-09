@@ -1,19 +1,20 @@
+import { DiCss3, DiJavascript1 } from 'react-icons/di';
+import { FaReact } from 'react-icons/fa';
+import { RiHtml5Line } from 'react-icons/ri';
+import { SiAdobephotoshop, SiRedux } from 'react-icons/si';
+import st from "./App.module.css";
 import { AboutMe } from "./blocks/aboutMe/AboutMe";
+import { Contact } from "./blocks/contact/Contact";
+import { Footer } from "./blocks/footer/Footer";
 import { Header } from "./blocks/header/Header";
 import { Wallpaper } from "./blocks/header/Wallpaper";
 import { MySkills } from "./blocks/mySkills/mySkills";
-import { FaReact } from 'react-icons/fa'
-import { RiHtml5Line } from 'react-icons/ri'
-import { DiCss3, DiJavascript1 } from 'react-icons/di'
-import { SiRedux, SiAdobephotoshop } from 'react-icons/si'
-import s from './blocks/mySkills/skillCard/SkillCard.module.css'
+import s from './blocks/mySkills/skillCard/SkillCard.module.css';
 import { Portfolio } from "./blocks/portfolio/Portfolio";
-import socialNetworkImage from "./img/dotted.png"
-import todoListImage from "./img//png-transparent-todoist-task-management-action-item-zomato-rectangle-logo-business.png"
-import calculatorImage from "./img/calculator_14445.png"
-import { Contact } from "./blocks/contact/Contact";
-import { Footer } from "./blocks/footer/Footer";
-
+import kino_logo from "./img//kino_logo.png";
+import converter_logo from "./img/converter_logo.png";
+import Pokeball from "./img/pokeb.png";
+import timer from "./img/timet.png";
 
 
 export type skillType = {
@@ -24,16 +25,18 @@ export type skillType = {
 export type projectType = {
   name: string,
   description: string,
+
 }
 
 export type worksType = {
   name: string,
-  image: string
+  image: string,
+  link: string
 }
 
 const skills: Array<skillType> = [{
   skill: "React",
-  percent: 50,
+  percent: 70,
   icon: <FaReact className={s.faReact} />
 },
 {
@@ -43,12 +46,12 @@ const skills: Array<skillType> = [{
 },
 {
   skill: "CSS",
-  percent: 60,
+  percent: 70,
   icon: <DiCss3 className={s.diCss3} />
 },
 {
   skill: "Redux",
-  percent: 50,
+  percent: 60,
   icon: <SiRedux className={s.siRedux} />
 },
 {
@@ -58,25 +61,33 @@ const skills: Array<skillType> = [{
 },
 {
   skill: "JS Native",
-  percent: 60,
+  percent: 70,
   icon: <DiJavascript1 className={s.diJavascript1} />
 }
 ]
 
-const works: Array<worksType> = [{
-  name: "Social Network",
-  image: socialNetworkImage
-},
-{
-  name: "TodoList",
-  image: todoListImage
-},
-{
-  name: "Calculator",
-  image: calculatorImage
-}
+const works: Array<worksType> = [
+  {
+    name: "PokeStore",
+    image: Pokeball,
+    link: "https://newshinsky.github.io/PokemonStore/#/PokemonStore/Login"
+  },
+  {
+    name: "Timer",
+    image: timer,
+    link: "https://newshinsky.github.io/timer/"
+  },
+  {
+    name: "Converter",
+    image: converter_logo,
+    link: "https://newshinsky.github.io/currency-converter/"
+  },
+  {
+    name: "Kinopoisk",
+    image: kino_logo,
+    link: "https://newshinsky.github.io/kinopoisk/"
+  },
 ]
-
 
 
 function App() {
@@ -85,6 +96,12 @@ function App() {
 
   return (
     <>
+      <div className={st.arrowDown}>
+        <a href="#Home">  <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
       <Header />
       <Wallpaper />
       <AboutMe />
@@ -92,7 +109,6 @@ function App() {
       <Portfolio works={works} />
       <Contact />
       <Footer />
-
     </>
   );
 

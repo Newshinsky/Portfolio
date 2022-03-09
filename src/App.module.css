@@ -1,0 +1,37 @@
+
+
+.arrowDown span {
+    position: fixed;
+    top: 800px;
+    right: 60px;
+    width: 30px;
+    height: 30px;
+    border-bottom: 5px solid #f9004d;
+    border-right: 5px solid #f9004d;
+    transform: rotate(225deg);
+    animation: arrow-down 2s infinite;
+}
+
+.arrowDown span:nth-child(2) {
+    animation-delay: -0.2s;
+}
+
+.arrowDown span:nth-child(3) {
+    animation-delay: -0.4s;
+}
+
+@keyframes arrow-down {
+    0% {
+        opacity: 0;
+        transform: rotate(225deg) translate(-20px, -20px);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(225deg) translate(20px, 20px);
+    }
+}
