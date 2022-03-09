@@ -36,7 +36,7 @@ export type worksType = {
 
 const skills: Array<skillType> = [{
   skill: "React",
-  percent: 70,
+  percent: 80,
   icon: <FaReact className={s.faReact} />
 },
 {
@@ -51,17 +51,17 @@ const skills: Array<skillType> = [{
 },
 {
   skill: "Redux",
-  percent: 60,
+  percent: 80,
   icon: <SiRedux className={s.siRedux} />
 },
 {
   skill: "Photoshop",
-  percent: 80,
+  percent: 90,
   icon: <SiAdobephotoshop className={s.siAdobephotoshop} />
 },
 {
   skill: "JS Native",
-  percent: 70,
+  percent: 80,
   icon: <DiJavascript1 className={s.diJavascript1} />
 }
 ]

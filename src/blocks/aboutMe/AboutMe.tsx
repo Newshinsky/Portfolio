@@ -20,7 +20,7 @@ export const AboutMe = () => {
         {
             id: 3,
             name: "Experience",
-            description: " Senior Account-Manager 2017 - 2021, IT-INCUBATOR"
+            description: " Senior Account-Manager 2017 - 2022, IT-INCUBATOR"
         },
     ]
 
