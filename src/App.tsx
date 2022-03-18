@@ -15,6 +15,7 @@ import kino_logo from "./img//kino_logo.png";
 import converter_logo from "./img/converter_logo.png";
 import Pokeball from "./img/pokeb.png";
 import timer from "./img/timet.png";
+import Weather from "./img/unnamed.png";
 
 
 export type skillType = {
@@ -71,6 +72,11 @@ const works: Array<worksType> = [
     name: "PokeStore",
     image: Pokeball,
     link: "https://newshinsky.github.io/PokemonStore/#/PokemonStore/Login"
+  },
+  {
+    name: "Weather",
+    image: Weather,
+    link: "https://newshinsky.github.io/weather-widget/"
   },
   {
     name: "Timer",
