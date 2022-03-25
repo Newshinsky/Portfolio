@@ -16,6 +16,7 @@ import converter_logo from "./img/converter_logo.png";
 import Pokeball from "./img/pokeb.png";
 import timer from "./img/timet.png";
 import Weather from "./img/unnamed.png";
+import f1Logo from "./img/f1_logo.png";
 
 
 export type skillType = {
@@ -68,6 +69,11 @@ const skills: Array<skillType> = [{
 ]
 
 const works: Array<worksType> = [
+  {
+    name: "F1 (In Development)",
+    image: f1Logo,
+    link: "https://newshinsky.github.io/FormulaOne/#/Formula/"
+  },
   {
     name: "PokeStore",
     image: Pokeball,
