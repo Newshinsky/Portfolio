@@ -70,7 +70,7 @@ const skills: Array<skillType> = [{
 
 const works: Array<worksType> = [
   {
-    name: "F1 (In Development)",
+    name: "F1 (In Dev)",
     image: f1Logo,
     link: "https://newshinsky.github.io/FormulaOne/#/Formula/"
   },
